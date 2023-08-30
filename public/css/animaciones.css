@@ -1,0 +1,19 @@
+.product:hover .delivery-icon i {
+    animation: rotacionCamion 900ms ease 1;
+}
+
+@keyframes rotacionCamion {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+
+
+}
